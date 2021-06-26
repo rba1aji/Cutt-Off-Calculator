@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#bg{  
+  background-image: linear-gradient(to bottom right,indigo, #ff6699);
+  background-size:auto;
+  height:device-height;
+  background-repeat:norepeat;
+  }
+body{
+  font-family:Arial;
+  color:white;
+  margin-top:10%;
+  margin-left:5%;
+  margin-right:5%;
+  margin-bottom:auto;
+  text-shadow:  0 0 5px black;
+  }
+h1{
+  text-align:center;
+  font-size:180%
+  }
+select{
+  font-size:120%;
+  border-radius:2%;
+  padding:3%;
+  border:3px solid violet;
+  background-color: #4d4d4d;
+  color:white;
+  text-weight:bolder;
+  }
+label{
+  font-size:160%;
+  font-weight:bold;
+  text-align:left;
+  }
+input[type="number"]{
+  width:45%;
+  height:8.5%;
+  text-align: center;
+  font-size:130%;
+  font-weight:bold;
+  padding:2%;
+  border-radius:5%;
+  border:3px solid violet;
+  color:white;
+  background-color:black;
+  }
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+button{
+  color: ;
+  background-color: #ff4000;
+  border-radius:10px;
+  font-size:100%;
+  text-align:center;
+  font-weight:bold;
+  padding:2%;
+  text-shadow:  0 0 5px orange;
+  }
+a{
+  color:black;
+  text-decoration: underline;
+  }
+div.a{
+  margin-left:15%;
+  margin-right:15%;
+  }
+div.b{
+  margin-left:5%;
+  margin-right:5%;
+  }
+div.c{
+  margin-top: 1rem;
+  margin-bottom:1rem;
+  height:15px;
+  width:15px;
+  }
+.r1{
+  position: relative;
+  right:-26.5%;
+  }
+.r2{
+  position: relative;
+  right:-8%;
+  }
+.r3{
+  position: relative;
+  right:-20%;
+  }
+.r4{
+  position: relative;
+  right:-21%;
+  width:60%;
+  height:8%;
+  }
+.r21{
+  position: relative;
+  right:-21%;
+  }
+.r31{
+  position: relative;
+  right:-22.5%;
+  }
+.r32{
+  position: relative;
+  right:-18%;
+  }
+.r41{
+  position: relative;
+  right:-21%;
+  }
+.r42{
+  position: relative;
+  right:-26.5%;
+  }
+  
+  
+  
+  
+  
+  
+@media(min-width:900px){
+  h1{
+    font-size:390%;
+    }
+  div.a{
+    margin-left:10%;
+    margin-right:10%;
+    }
+    body{
+      text-shadow:  0 0 15px black;
+      text-margin:20%;
+      }
+   label{
+     font-size:370%;
+     font-weight:bold;
+     text-align:left;
+     }
+   input[type="number"]{
+     width:40%;
+     height:6%;
+     border:6px solid violet;
+     font-size:300%;
+     padding:2%;
+     }
+    select{
+  font-size:270%;
+  border-radius:2%;
+  padding:3%;
+  border:6px solid violet;
+  background-color: #4d4d4d;
+  color:white;
+  text-weight:bolder;
+  Margin:8%;
+  }
+
+  button{
+  border-radius:10px;
+  font-size:150%;
+  padding:2%;
+  text-shadow:  0 0 10px orange;
+  }
+  div.d{
+  margin-top: 1rem;
+  margin-bottom:1rem;
+  height:15px;
+  width:15px;
+  }
+  div.lapmargin{
+    margin-top:30%;
+    margin-bottom:300%;
+    margin-left:10%;
+    margin-right:10%;
+    }
+}

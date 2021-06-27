@@ -8,7 +8,7 @@
   background-image: linear-gradient(to bottom right,indigo, #ff6699);
   background-size:auto;
   height:device-height;
-  background-repeat:norepeat;
+  background-repeat:no-repeat;
   }
 body{
   font-family:Arial;

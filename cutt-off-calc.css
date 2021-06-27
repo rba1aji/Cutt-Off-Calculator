@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 #bg{  
+  background-color:white;
   background-image: linear-gradient(to bottom right,indigo, #ff6699);
   background-size:auto;
   height:device-height;

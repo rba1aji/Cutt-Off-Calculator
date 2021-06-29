@@ -1,2 +1,2 @@
 # tn-cutt-off-calculator
-cutt off calculator for engineering, medical and agriculture for tamil nadu state board students 2021
+Cutt off calculator for engineering, medical and agriculture of tamil nadu state board students 2021

@@ -56,14 +56,13 @@ input[type="number"]{
   margin-right: auto;
   }
 button{
-  color: ;
-  background-color: #ff4000;
+  background-color: violet;
+  border:2px solid indigo;
   border-radius:10px;
   font-size:100%;
   text-align:center;
   font-weight:bold;
   padding:2%;
-  text-shadow:  0 0 5px orange;
   }
 a{
   color:black;
@@ -87,11 +86,11 @@ div.i{
   }
 .maths{
   position: relative;
-  right:-25.6%;
+  right:-26.2%;
   }
 .chemistry{
   position: relative;
-  right:-8%;
+  right:-8.1%;
   }
 .physics{
   position: relative;
@@ -100,8 +99,6 @@ div.i{
 .result{
   position: relative;
   right:-21%;
-  width:60%;
-  height:8%;
   }
 .biology{
   position: relative;
@@ -115,11 +112,6 @@ div.i{
   position: relative;
   right:-18%;
   }
-.biology{
-  position: relative;
-  right:-21%;
-  }
-  
   
   
 @media only screen and (min-width: 768px){
@@ -140,23 +132,75 @@ div.i{
   text-shadow:  0 0 10px black;
   display:block;
   }
-#mainh1{
-  text-align:center;
-  font-size:400%
-  }
   h1{
+  margin-top:5%;
   text-align:center;
-  font-size:200%
+  font-size:250%
   }
   select{
-  font-size:290%;
-  border:4px solid violet;
+  font-size:220%;
+  border-radius:2%;
+  padding:4px;
+  border:3px solid violet;
+  text-weight:bold;
   }
   div.c{
   margin-top:5px;
   margin-bottom:5px;
   height:15px;
   width:15px;
+  }
+  button{
+  color: ;
+  background-color:violet;
+  border-radius:10px;
+  font-size:160%;
+  padding:4px;
+  border:3px solid indigo;
+  }
+  label{
+  font-size:260%;
+  font-weight:bold;
+  text-align:left;
+  margin-left:23%;
+  }
+  input[type="number"]{
+  width:13%;
+  height:6.9%;
+  text-align:center;
+  font-size:180%;
+  font-weight:bold;
+  padding:2.5px;
+  border-radius:5%;
+  border:3px solid violet;
+  }
+.maths{
+  position: relative;
+  right:-22.4%;
+  }
+.chemistry{
+  position: relative;
+  right:-14.7%;
+  }
+.physics{
+  position: relative;
+  right:-19.5%;
+  }
+.result{
+  position: relative;
+  right:-20%;
+  }
+.biology{
+  position: relative;
+  right:-20%;
+  }
+.botany{
+  position: relative;
+  right:-21.1%;
+  }
+.zoology{
+  position: relative;
+  right:-19%;
   }
 }
   

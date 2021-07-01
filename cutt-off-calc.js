@@ -32,7 +32,7 @@ function med1(){
   
 function med2(){
     let a=parseFloat(document.getElementById("botany").value);
-    let b=parseFloat(document.getElementById("zoolagy").value);
+    let b=parseFloat(document.getElementById("zoology").value);
     let c=parseFloat(document.getElementById("chemistry").value);
     let d=parseFloat(document.getElementById("physics").value);
     const result= (a/2 + b/2 + c/2 + d/2);

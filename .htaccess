@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} .
+RewriteCond %{HTTP_HOST} !^cuttoffcalc.codes
+RewriteRule (.*) https://cuttoffcalc.codes/$1 [R=301,L]

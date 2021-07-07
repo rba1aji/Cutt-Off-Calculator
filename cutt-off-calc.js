@@ -1,3 +1,4 @@
+console.log("Welcome");
 function eng(){
     let x=parseFloat(document.getElementById("maths").value);
     let y=parseFloat(document.getElementById("chemistry").value);
